@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blog_blogs",
+  "info": {
+    "displayName": "PostsSelection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "featuredPosts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post"
+    }
+  }
+}
